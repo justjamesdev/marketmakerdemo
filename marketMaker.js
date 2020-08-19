@@ -91,7 +91,7 @@ function reconcileOrders(orders, bestOffer, bestBid, offerLimit, bidLimit) {
 
 
 function createOrder(type, best, limit) {
-  console.log(`${type} limit ${limit} for ${best}`);
+  //console.log(`${type} limit ${limit} for ${best}`);
   let orderPrice = Math.floor(Math.random() * (best - limit + 1)) + limit;
   let orderAmount = Math.floor(Math.random() * (0.01 - 0.05 + 1)) + 0.05;
   activeOrders.push({ type, orderPrice, orderAmount });
