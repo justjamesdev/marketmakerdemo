@@ -1,0 +1,19 @@
+{
+  "name": "marketmaker-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "ava"
+  },
+  "author": "James Hitchcock",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "rewire": "^5.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.11.1"
+  }
+}
